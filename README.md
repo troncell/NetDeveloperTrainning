@@ -40,4 +40,4 @@
 6. develop wechat mini-program
     - [ ] [Hello World](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html)
     - [ ] 创思感知小程序理解及功能提升
-7. TronCell SensingStoreCloud(front-back) & Customized Projects
+7. TronCell SensingStoreCloud(front-back) & .net products & Customized Projects
