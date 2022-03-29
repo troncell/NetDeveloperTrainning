@@ -16,28 +16,28 @@
 *  [Git](https://gitforwindows.org/) is for version control.
 *  [Docker for windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
-### Develop applications
+## Develop generial applications for understanding .net basics
 
 1. .net core console application
 
-    [ ] 10 sorts for number
+    - [ ] :rainbow_flag:10 sorts for number
 2. asp.net core + angular template application
 
-    [ ] understanding all the structure about web api and angular
+    - [ ] understanding all the structure about web api and angular
     
 3. abp piolerpate + angular template application,[download template](https://aspnetboilerplate.com/Templates)
 
-    [ ] understanding all the structure about web api and angular in abp
+    - [ ] understanding all the structure about web api and angular in abp
 
 4. .net core winform
   
-    []dpr controller ui 
-    []motion control ui
+    - [ ] dpr controller ui 
+    - [ ] motion control ui
 5. .net core wpf
 
-    [ ] Prsim Demo
-    [ ] Mirgation sensingPlatform to .net core
+    - [ ] Prsim Demo
+    - [ ] Mirgation sensingPlatform to .net core
 6. develop wechat mini-program
-    [ ][Hello World](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html)
-    [ ]创思感知小程序理解及功能提升
+    - [ ] [Hello World](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html)
+    - [ ] 创思感知小程序理解及功能提升
 7. TronCell SensingStoreCloud(front-back) & Customized Projects
