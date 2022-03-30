@@ -29,25 +29,32 @@ Before you start coding, please reference [C# Coding Standards Best Practices](h
 2. web api template application
     - [ ] [Swagger with Web Api](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
     - [ ] [Swagger UI](https://swagger.io/tools/swagger-ui/)
+    - [ ] understanding all the structure of web api
     - [ ] Add yourslef api controller with different methods [get,post,delete...]
     
 3. asp.net mvc core + angular template application
-
-    - [ ] understanding all the structure about web api and angular
+    - [ ] asp.net mvc structure
+    - [ ] [Anuglar Tutorial](https://angular.io/)
+    - [ ] How to CURD database
+    - [ ] angular with webapi
     
 3. abp piolerpate + angular template application,[download template](https://aspnetboilerplate.com/Templates)
 
     - [ ] understanding all the structure about web api and angular in abp
 
 4. .net core winform
-  
     - [ ] dpr controller ui 
     - [ ] motion control ui
 5. .net core wpf
-
     - [ ] Prsim Demo
     - [ ] Mirgation sensingPlatform to .net core
 6. develop wechat mini-program
     - [ ] [Hello World](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html)
     - [ ] 创思感知小程序理解及功能提升
 7. TronCell SensingStoreCloud(front-back) & .net products & Customized Projects
+
+
+
+### Advanced Developing Skills
+
+* [C# Design Patterns](https://www.dofactory.com/net/design-patterns)
