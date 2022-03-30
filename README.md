@@ -18,12 +18,20 @@
 
 ## Develop generial applications for understanding .net basics
 
+Before you start coding, please reference [C# Coding Standards Best Practices](https://www.dofactory.com/csharp-coding-standards) for naming details firstly.
+
 1. .net core console application
 
     - [ ] :rainbow_flag:10 sorts algorithms
     - [ ] [xUnit Test](https://xunit.net/) for .net unit test
     - [ ] [Benchmark.Net](https://benchmarkdotnet.org/articles/overview.html)
-2. asp.net core + angular template application
+
+2. web api template application
+    - [ ] [Swagger with Web Api](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
+    - [ ] [Swagger UI](https://swagger.io/tools/swagger-ui/)
+    - [ ] Add yourslef api controller with different methods [get,post,delete...]
+    
+3. asp.net mvc core + angular template application
 
     - [ ] understanding all the structure about web api and angular
     
