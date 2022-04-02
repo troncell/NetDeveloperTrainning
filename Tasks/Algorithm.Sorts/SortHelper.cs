@@ -110,42 +110,26 @@ public class SortHelper
     /// </summary>
     /// <param name="arr"></param>
     /// <param name="low"></param>
-    /// <param name="hi">arr.Length - 1</param>
-    public static void QuickSortOptimization(int[] arr, int low, int hi)
+    ///// <param name="hi">arr.Length - 1</param>
+    public static void QuickSort(int[] nums, int left, int right)//数组,起始下标,数组长度
     {
-        //去除单个元素或者没有元素的情况
-        if (low < hi)
+        if (left < right)    //直到排序的左右区间只剩一个值(递归停止条件)
         {
-            int lt = low;
-            int i = low + 1;//第一个元素是切分元素，所以i从low+1开始
-            int gt = hi;
-            int pivot = arr[lt];
-            while (i <= gt)
+            int i = left;
+            int j = right - 1;
+            int middle = nums[(left + right) / 2];
+            while (true)
             {
-                //小于切分元素放在lt左边，指针lt和i整体右移
-                if (arr[i] < pivot)
-                {
-                    Swap(ref arr[i], ref arr[lt]);
-                    i++;
-                    lt++;
-                }
-                //大于切分元素放在gt右边，指针gt左移
-                else if (arr[i] > pivot)
-                {
-                    Swap(ref arr[i], ref arr[gt]);
-                    gt--;
-                }
-                //等于切分元素，指针i++
-                else
-                {
-                    i++;
-                }
+                while (i < right && nums[i] < middle) { i++; };  //在middle左边找到一个比middle大的值
+                while (j > 0 && nums[j] > middle) { j--; };       //在middle右边找到一个比middle小的值
+                if (i == j) break;                 //当i=j时,middle左边都是比middle小的数,右边都是比middle大的;跳出循环
+                nums[i] = nums[i] + nums[j];
+                nums[j] = nums[i] - nums[j];
+                nums[i] = nums[i] - nums[j];     //两个值交换位置
+                if (nums[i] == nums[j]) j--;    //如果两个值相等,且等于middle,为避免进入死循环,j--
             }
-            //lt-gt之间的元素已经排定，只需对lt左边和gt右边的元素进行递归排序
-            //对比新的轴小的部分递归排序
-            QuickSortOptimization(arr, low, lt - 1);
-            //对比新的轴大的部分递归排序
-            QuickSortOptimization(arr, gt + 1, hi);
+            QuickSort(nums, left, i);           //递归 
+            QuickSort(nums, i + 1, right);
         }
     }
 
