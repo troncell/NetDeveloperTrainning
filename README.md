@@ -34,7 +34,7 @@ Before you start coding, please reference [C# Coding Standards Best Practices](h
     
 3. asp.net mvc core + angular template application
     - [ ] asp.net mvc structure
-    - [ ][Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-6.0&tabs=visual-studio)
+    - [ ][Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-6.0&tabs=visual-studio)git 
     - [ ][SQL Tutorial](https://www.dofactory.com/sql)
     - [ ][Node.js + NPM](https://nodejs.org/en/about/)
     - [ ] [Anuglar Tutorial](https://angular.io/)
