@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainning.Tests", "Trainnin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiHello", "WebApiHello\WebApiHello.csproj", "{3527C0E4-A73F-4CC3-953C-E17D1A9E7AC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMvcHello", "WebMvcHello\WebMvcHello.csproj", "{F3AB4926-3909-4C0A-97DF-EC257624BE68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
