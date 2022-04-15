@@ -44,6 +44,7 @@ Before you start coding, please reference [C# Coding Standards Best Practices](h
 4. abp piolerpate + angular template application,[download template](https://aspnetboilerplate.com/Templates)
 
     - [ ] understanding all the structure about web api and angular in abp
+    - [ ] integrated with [dapper](https://github.com/DapperLib/Dapper)
 
 5. .net core winform
     - [ ] dpr controller ui 
