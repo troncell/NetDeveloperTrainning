@@ -19,7 +19,7 @@
 ## Develop generial applications for understanding .net basics
 
 Before you start coding, please reference [C# Coding Standards Best Practices](https://www.dofactory.com/csharp-coding-standards) for naming details firstly.
-
+[C# code style](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 1. .net core console application
 
     - [ ] :rainbow_flag:10 sorts algorithms
